@@ -1,0 +1,363 @@
+/* styles.css */
+
+
+header{
+
+    border-style: solid;
+    border-color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    z-index: 999;
+    font-family: "Playfair Display";
+    font-size: 18px;
+    
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    color: white;
+}
+
+nav li {
+    margin: 0 10px;
+    
+}
+
+nav li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: #007bff;
+    text-decoration: none;
+}
+
+
+.LOGITO{
+    padding: 0 15px;
+}
+.LOGITO img{
+    width: auto;
+    height: 110px;
+}
+
+.iconos {
+    display: flex;
+    
+}
+
+.iconos a {
+    margin: 0 10px;
+    color: #8d8d8d;
+    font-size: 25px;
+}
+
+.iconos a.facebook:hover i {
+    color: #3b5998; /* Azul de Facebook */
+}
+
+.iconos a.twitter:hover i {
+    color: #ffffff; /* Azul de Twitter */
+}
+
+.iconos a.instagram:hover i {
+    color: #e4405f; /* Rosa de Instagram */
+}
+
+.iconos a.whatsapp:hover i {
+    color: #25d366; /* Verde de WhatsApp */
+}
+
+.iconos a.pinterest:hover i {
+    color: #e60023; /* Rojo de Pinterest */
+}
+
+
+
+/*BOTON PARA IR AL INICIO*/
+
+.buttonPERI {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    margin: 30px;
+    border-style: solid;
+    border-color: #ffffff;
+    
+    
+    
+    
+    
+    
+}
+
+.buttonPERI:hover {
+    background-color: #2f3130;
+    color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    margin: 0 30px;
+    justify-content: center;
+}
+
+.botonesPERI{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+.buttonCOMPRAR {
+    background-color: #282828;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    margin: 30px;
+    border-style: solid;
+    border-color: #ffffff;
+    
+    
+    
+    
+    
+    
+}
+
+.buttonCOMPRAR:hover {
+    background-color: #434343;
+    color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    margin: 0 30px;
+    justify-content: center;
+}
+
+.botonesCOMPRAR{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+
+
+h1{
+    margin-top: 150px;
+    font-family: "agdasima", sans-serif;
+    font-size: 50px;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    text-shadow: #ff0000 2px 2px 10px;
+
+}
+
+h2{
+    font-family: "agdasima", sans-serif;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-shadow: #c7c7c7 2px 2px 10px;
+
+}
+
+body{
+
+    background-color: #000000;
+
+}
+
+.fila1{
+    display:flex;
+    margin-top: 250px;
+    margin-bottom: 250px;
+    justify-content: space-around;
+    border-style: solid;
+    border-color: white;
+}
+
+.imagenJuego{
+    border-radius: 50px;
+    padding: 15px;
+    border-color: rgb(43, 43, 43);
+    border-style: solid;
+    background-color: white;
+    filter: brightness(0.9);
+    
+}
+
+.imagenJuego:hover{
+
+    transform: scale(1.2); /* Agrandar un 10% al hacer hover */
+    filter: brightness(1.2);
+}
+
+.imagenJuego img{
+
+    height: 250px;
+    width: auto;
+    
+}
+
+
+
+.nombreJuego{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'agdasima', sans-serif;
+    letter-spacing: 1px;
+    color: #000000;
+}
+
+.precioJuego{
+
+    text-align: center;
+    color: red;
+    font-size: 35px;
+    font-family: "Agdasima", sans-serif;
+    text-shadow: #b41f1f 2px 2px 10px;
+}
+
+.fila1{
+    
+    background-color: rgb(67, 67, 67);
+    padding: 60px;
+    border-radius: 20px;
+}
+
+.textoOFERTA{
+
+    background-color: rgb(0, 0, 0);
+    border-radius: 50px;
+    margin-left: 450px;
+    margin-right: 450px;
+    justify-content: center;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+
+.footer {
+    margin-top: 0px;
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    border-style: solid;
+    border-color: white;
+  }
+  
+  .filas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  h3, p {
+    color: #fff;
+    margin: 0;
+  }
+  
+  .social-icons1 {
+    display: flex;
+  }
+  
+
+
+  /* Aquí puedes agregar tu CSS */
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons li {
+    display: inline-block;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #d5f0f4;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icons a.facebook2:hover i{
+    color: #001aff; /* Cambia esto según el color que desees para el hover */
+}
+
+.social-icons a.twitter2:hover i {
+    color: #ffffff; /* Cambia esto según el color que desees para el hover */
+}
+
+.social-icons a.instagram2:hover i {
+    color: #f30669; /* Cambia esto según el color que desees para el hover */
+}
+
+.social-icons a.linkedin:hover i {
+    color: #00a6ff; /* Cambia esto según el color que desees para el hover */
+}
+
+.social-icons a.youtube:hover i {
+    color: #ff0000; /* Cambia esto según el color que desees para el hover */
+}
+
+.social-icons a.telegram:hover i {
+    color: #00c8ff; /* Cambia esto según el color que desees para el hover */
+}
+  
+
+.Josue{
+
+    justify-content: center;
+    text-align: center;
+}
+
+
+

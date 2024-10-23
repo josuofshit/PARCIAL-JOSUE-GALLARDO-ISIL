@@ -1,0 +1,197 @@
+/* Estilos básicos para la página */
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    z-index: 999;
+    font-family: "Playfair Display";
+    font-size: 18px;
+    border-style: solid;
+    border-color: white;
+    
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    color: white;
+}
+
+nav li {
+    margin: 0 10px;
+    
+}
+
+nav li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: #007bff;
+    text-decoration: none;
+}
+
+
+.LOGITO{
+    padding: 0 15px;
+}
+.LOGITO img{
+    width: auto;
+    height: 110px;
+}
+
+.iconos {
+    display: flex;
+    
+}
+
+.iconos a {
+    margin: 0 10px;
+    color: #8d8d8d;
+    font-size: 25px;
+}
+
+.iconos a.facebook:hover i {
+    color: #3b5998; /* Azul de Facebook */
+}
+
+.iconos a.twitter:hover i {
+    color: #ffffff; /* Azul de Twitter */
+}
+
+.iconos a.instagram:hover i {
+    color: #e4405f; /* Rosa de Instagram */
+}
+
+.iconos a.whatsapp:hover i {
+    color: #25d366; /* Verde de WhatsApp */
+}
+
+.iconos a.pinterest:hover i {
+    color: #e60023; /* Rojo de Pinterest */
+}
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 20px;
+}
+
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+.producto {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 220px;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    filter: brightness(0.9);
+    border-style: solid;
+    border-color: darkgrey;
+}
+
+.producto:hover{
+
+    filter: brightness(1.2);
+    transform: scale(1.2);
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.nombreProducto {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+
+.precioProducto {
+    color: #28a745;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+}
+
+.buttonCOMPRAR {
+    background-color: #282828;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    margin: 30px;
+    border-style: solid;
+    border-color: #ffffff;
+    
+    
+    
+    
+    
+    
+}
+
+.buttonCOMPRAR:hover {
+    background-color: #434343;
+    color: #ffffff;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    margin: 0 30px;
+    justify-content: center;
+}
+
+.botonesCOMPRAR{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
